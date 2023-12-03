@@ -1,0 +1,109 @@
+body {
+    background-color: #F1ECD3;
+  }
+
+header img {
+    width: 158px; /* adjust the width of the logo */
+    height: auto; /* automatically adjust the height of the logo to maintain its aspect ratio */
+    margin: 0px; /* add some space around the logo */
+   }
+
+   .nav-logo {
+    float: left;
+   }
+   nav ul li {
+    display: inline;
+    margin-left: 10px;
+   }
+
+   /*Navegation*/
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #004D29;
+  }
+
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 70px 75px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #046a3a;
+  }
+
+  body{
+    padding: 10px;
+  }
+
+  h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    margin-top: 30px;
+    margin-left: 60px;
+    color: #e09c15;
+    text-shadow: 2px 2px 5px rgb(136, 96, 4);
+  }
+
+  h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: darkolivegreen;
+    text-align: center;
+  }
+
+  p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  .content{
+    width: 520px;
+    height: 450px;
+    background-color:rgb(187, 206, 166, 0.8); 
+    border-radius: 8px;
+    padding: 20px;
+  }
+
+  .centered-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button{
+    font-size: 16px;
+    padding: 10px 24px;
+    border-radius: 8px;
+    background-color: #084830;
+    color: white;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: none;
+  }
+
+  button:hover{
+    background-color: #97b578;
+    color: white;
+  }
+
+  form{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+  }
+
